@@ -5,13 +5,13 @@ class CreateProducts < ActiveRecord::Migration
       t.text :description
       t.text :short_description
       t.boolean :active
-      t.decimal :price
-      t.decimal :cost_price
+      t.decimal :price, precision: 8, scale: 2, default: 0.0
+      t.decimal :cost_price, precision: 8, scale: 2, default: 0.0
       t.boolean :featured
       t.string :color
       t.string :image_id
       t.string :category_name
-      t.string :wieght
+      t.string :weight, precision: 8, scale: 2, default: 0.0
       t.string :decimal
 
       t.timestamps null: false

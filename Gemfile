@@ -15,7 +15,7 @@ gem 'faker', '~> 1.5'
 gem 'pry', '~> 0.10.3', group: :development 
 gem 'pry-byebug', '~> 3.3', group: :development 
 gem 'will_paginate', '~> 3.0', '>= 3.0.7'
-
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 
 
 
